@@ -9,6 +9,13 @@ else:
 print(f"First character is - {user_input[0]}") 
 print(f"Last character is - {user_input[-1]}") 
 
+import random
+
+s=user_input
+s_shuffled = "".join(random.sample(s, len(s)))
+print(s_shuffled)
+
+
 string = input("enter the string: ")
 length = len(string)
 for row in range(length):
