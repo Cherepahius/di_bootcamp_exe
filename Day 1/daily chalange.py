@@ -13,7 +13,7 @@ import random
 
 s=user_input
 s_shuffled = "".join(random.sample(s, len(s)))
-print(s_shuffled)
+print(s_shuffled + " - is your input shuffled")
 
 
 string = input("enter the string: ")
