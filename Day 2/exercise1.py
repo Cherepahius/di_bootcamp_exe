@@ -90,7 +90,41 @@
 
 
 #--------Exercise 9---------------
+#def calculate_ticket_price(age):
+#    if age < 3:
+#        return 0
+#    elif 3 <= age <= 12:
+#        return 10
+#    else:
+#        return 15
 
+#num_people = int(input("How many people in your family? "))
+#total_cost = 0
+
+#for i in range(1, num_people + 1):
+#    age = int(input(f"Enter age of person {i}: "))
+#    ticket_price = calculate_ticket_price(age)
+#    total_cost += ticket_price
+
+#print(f"Total cost for the family's tickets: ${total_cost}")
+
+
+#Teenagers part
+
+#names = ["Alice", "Bob", "Charlie", "David", "Emily"]
+
+#names_copy = names[:]  
+
+#for name in names_copy:
+#    age = int(input(f"Enter age of {name}: "))
+#    if 16 <= age <= 21:
+#        print(f"{name} can watch the movie.")
+#    else:
+#        print(f"Sorry, {name} is not permitted to watch the movie.")
+#        names.remove(name)
+
+
+#print("You can watch a film:", names)
 
 #--------Exercise 10---------------
 
