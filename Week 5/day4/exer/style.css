@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#container {
+    display: flex;
+    border: 5px solid black;
+    padding: 12px;
+
+}
+
+#color-palette {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    gap: 5px;
+    margin-right: 10px;
+
+}
+
+#clear-btn {
+    grid-column: span 3;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#draw-place {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(40, 15px);
+    grid-template-rows: repeat(20, 15px);
+    gap: 1px;
+
+}
