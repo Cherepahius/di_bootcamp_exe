@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    background-color: aquamarine;
+    overflow: hidden;
+    padding: 5px;
+}
+
+#navbar div {
+    float: right;
+    color: brown;
+    display: flex;
+    align-items: center;
+}
