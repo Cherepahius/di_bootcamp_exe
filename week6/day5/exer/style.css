@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./circuit-pattern.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+
+    background-image: url("https://png.pngtree.com/png-vector/20221001/ourmid/pngtree-pixel-mosaic-pattern-disintegrating-transformation-png-image_6232281.png");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+.search-box {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.search-box input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.robots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.robot-card {
+    background-color: white;
+    background-image: url("./card-pattern.png");
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    position: relative;
+    z-index: 2;
+}
+
+.robot-card:hover {
+    transform: scale(1.05);
+}
+
+.robot-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.robot-card h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.robot-card p {
+    color: grey;
+    padding-bottom: 10px;
+}
