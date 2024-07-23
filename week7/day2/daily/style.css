@@ -1,0 +1,32 @@
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gif-item {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#delete-all {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
