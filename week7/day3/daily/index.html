@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="script.js" defer async></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #loading {
+            display: none;
+            font-size: 24px;
+        }
+
+        #character-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random Star Wars Character</h1>
+    <button id="fetch-button">Get Random Character</button>
+    <div id="loading"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
+    <div id="character-info"></div>
+
+    <script src="script.js" defer async></script>
+</body>
+
+</html>

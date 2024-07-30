@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20230325/pngtree-future-star-wars-star-science-and-technology-character-silhouette-image_2090951.jpg');
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    color: yellow;
+    text-shadow: 2px 2px 8px black;
+    margin-top: 20px;
+}
+
+#loading {
+    display: none;
+    font-size: 24px;
+}
+
+#character-info {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: orange;
+}
