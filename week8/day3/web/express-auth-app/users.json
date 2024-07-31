@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "username": "testuser",
+    "password": "$2a$10$d87x2YEKFJsNwUVhwEBme.5YrrU.IEDLhYXPXz5zKW9af4QnJnlxy"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "lastName": "Bib",
+    "email": "bobb@gmail.com",
+    "username": "3213",
+    "password": "$2a$10$.sP/Q4aVBkZkra5cMaXubesiGxJX1jr0.Z.YfNfsB1mTzCnugmVn6"
+  }
+]

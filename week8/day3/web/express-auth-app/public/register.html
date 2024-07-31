@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script>
+        function toggleButton() {
+            const name = document.getElementById("name").value;
+            const lastName = document.getElementById("lastName").value;
+            const email = document.getElementById("email").value;
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            document.getElementById("submit").disabled = !(name && lastName && email && username && password);
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Register</h2>
+    <form action="/register" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" oninput="toggleButton()">
+        <br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" oninput="toggleButton()">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" oninput="toggleButton()">
+        <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" oninput="toggleButton()">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" oninput="toggleButton()">
+        <br><br>
+        <button type="submit" id="submit" disabled>Register</button>
+    </form>
+</body>
+
+</html>
