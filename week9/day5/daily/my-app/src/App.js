@@ -5,9 +5,8 @@ function App() {
   const [num1, setNum1] = useState(0);
   const [num2, setNum2] = useState(0);
   const [result, setResult] = useState(0);
-  const [operation, setOperation] = useState('add'); // Default operation is addition
+  const [operation, setOperation] = useState('add');
 
-  // This function handles the calculation based on the selected operation
   const handleCalculation = () => {
     let res;
     switch (operation) {
