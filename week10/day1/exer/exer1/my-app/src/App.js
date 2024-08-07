@@ -23,7 +23,6 @@ function App() {
       <div className="App">
         <h1>Theme Switcher Example</h1>
         <ThemeSwitcher />
-        {/* Other components here */}
       </div>
     </ThemeProvider>
   );
