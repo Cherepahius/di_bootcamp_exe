@@ -14,7 +14,7 @@ const App = () => {
   const handleAddTask = (task) => {
     if (taskToEdit) {
       dispatch(editTask({ day: selectedDay, taskId: taskToEdit.id, updatedTask: { task } }));
-      setTaskToEdit(null); // Reset after editing
+      setTaskToEdit(null);
     } else {
       dispatch(addTask({ day: selectedDay, task: { id: Date.now(), task, completed: false } }));
     }
